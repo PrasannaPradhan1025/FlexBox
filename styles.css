@@ -56,8 +56,8 @@ justify-content: space-around;
   width: 900px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
+ flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -67,3 +67,19 @@ justify-content: space-around;
   height: 300px;
 }
 
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+.footer-three {
+  flex: 2;
+}
